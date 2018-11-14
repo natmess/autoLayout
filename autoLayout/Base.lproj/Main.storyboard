@@ -58,18 +58,18 @@
                                 <rect key="frame" x="187.5" y="20" width="187.5" height="667"/>
                                 <color key="backgroundColor" red="0.58894662630000005" green="0.50519710360000003" blue="0.90465106870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="rtw-iR-8mr">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="rtw-iR-8mr">
                                 <rect key="frame" x="0.0" y="66" width="187.5" height="512"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A4L-DU-yNY">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4L-DU-yNY">
                                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="128"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Sg-8g-skk">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Sg-8g-skk">
                                         <rect key="frame" x="0.0" y="192" width="187.5" height="128"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="axU-xy-ylb">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="axU-xy-ylb">
                                         <rect key="frame" x="0.0" y="384" width="187.5" height="128"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -91,6 +91,8 @@
                             <constraint firstItem="8Nw-zY-Pu5" firstAttribute="height" secondItem="g13-0K-33g" secondAttribute="height" id="Qq9-qE-2K6"/>
                             <constraint firstItem="8Nw-zY-Pu5" firstAttribute="bottom" secondItem="t0M-1w-sE6" secondAttribute="bottom" constant="20" id="QsE-8B-duW"/>
                             <constraint firstItem="8Nw-zY-Pu5" firstAttribute="width" secondItem="g13-0K-33g" secondAttribute="width" multiplier="0.5" id="YdF-Un-JRK"/>
+                            <constraint firstItem="t0M-1w-sE6" firstAttribute="bottom" secondItem="rtw-iR-8mr" secondAttribute="bottom" constant="89" id="snr-Cc-MQD"/>
+                            <constraint firstItem="rtw-iR-8mr" firstAttribute="top" secondItem="t0M-1w-sE6" secondAttribute="top" constant="46" id="yjd-nX-2DJ"/>
                             <constraint firstItem="t0M-1w-sE6" firstAttribute="trailing" secondItem="8Nw-zY-Pu5" secondAttribute="trailing" id="ymF-Hi-to6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="t0M-1w-sE6"/>
